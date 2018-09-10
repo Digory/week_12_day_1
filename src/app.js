@@ -1,6 +1,8 @@
-const FormView = require('./views/form_view.js');
+const NumberInputView = require('./views/number_input_view.js');
 
 document.addEventListener('DOMContentLoaded', () => {
-  const formView = new FormView();
-  formView.bindEvents();
+  const numberInputView = new NumberInputView();
+  numberInputView.bindEvents();
+
+  
 });
